@@ -5,6 +5,10 @@
 
 .footer-logo {
 }
+
+.footer-logo-wrap {
+}
+
 .footer-address-list {
 }
 .footer-address-link {
@@ -26,7 +30,13 @@
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 14px;
 }
+
+.footer-soc-link:last-child {
+  margin-bottom: 0;
+}
+
 .footer-nav-list {
   list-style: none;
 }
@@ -37,15 +47,25 @@
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 14px;
 }
+
+.footer-nav-link:last-child {
+  margin-bottom: 0;
+}
+
 .footer-form {
+  margin-top: 75px;
 }
 .footer-input {
   border-radius: 12px;
   background: #fff;
   padding: 20px 18px;
+  max-width: 267px;
 }
 .footer-btn {
+  width: 60px;
+  height: 60px;
   padding: 18px 16px;
   border-radius: 12px;
   background: #1d1d1d;
@@ -56,6 +76,23 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.2;
+  margin-left: 8px;
 }
 .footer-text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+}
+.footer-text-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.footer-link-wrap {
+  display: flex;
+  margin-top: 40px;
+  justify-content: flex-start;
 }
